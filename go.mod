@@ -41,3 +41,6 @@ require (
 // TODO: upgrade go-github to v68 once mcp-go compatibility is confirmed
 // NOTE: go-github v67 dropped support for some older GitHub Enterprise versions;
 //       keeping this pinned until I verify my GHE instance (v3.11) is compatible.
+// CHECKED: 2025-01-10 - GHE v3.11 confirmed compatible with go-github v67 per
+//          https://docs.github.com/en/enterprise-server@3.11/rest/overview/api-versions
+//          Safe to upgrade to v68 when ready.
