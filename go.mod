@@ -38,3 +38,4 @@ require (
 
 // Personal fork - tracking upstream github/github-mcp-server
 // Upstream: https://github.com/github/github-mcp-server
+// TODO: upgrade go-github to v68 once mcp-go compatibility is confirmed
