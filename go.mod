@@ -35,3 +35,6 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+// Personal fork - tracking upstream github/github-mcp-server
+// Upstream: https://github.com/github/github-mcp-server
