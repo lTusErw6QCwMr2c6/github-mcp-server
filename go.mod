@@ -45,3 +45,5 @@ require (
 //          Safe to upgrade to v68 when ready.
 // CHECKED: 2025-03-15 - go-github v68 released; mcp-go v0.17.0 confirmed compatible.
 // DONE: 2025-04-02 - Upgraded go-github to v68. GHE v3.11 compatibility verified.
+// TODO: 2025-04-10 - Watch for mcp-go v0.18.x; upstream has open PRs adding streaming
+//       support. May be worth pulling in once stable for long-running tool responses.
