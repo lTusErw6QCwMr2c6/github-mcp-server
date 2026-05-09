@@ -3,7 +3,7 @@ module github.com/github/github-mcp-server
 go 1.22
 
 require (
-	github.com/google/go-github/v67 v67.0.0
+	github.com/google/go-github/v68 v68.0.0
 	github.com/mark3labs/mcp-go v0.17.0
 	github.com/shurcooL/githubv4 v0.0.0-20240727222349-48295856cce7
 	github.com/spf13/cobra v1.8.1
@@ -38,11 +38,10 @@ require (
 
 // Personal fork - tracking upstream github/github-mcp-server
 // Upstream: https://github.com/github/github-mcp-server
-// TODO: upgrade go-github to v68 once mcp-go compatibility is confirmed
 // NOTE: go-github v67 dropped support for some older GitHub Enterprise versions;
 //       keeping this pinned until I verify my GHE instance (v3.11) is compatible.
 // CHECKED: 2025-01-10 - GHE v3.11 confirmed compatible with go-github v67 per
 //          https://docs.github.com/en/enterprise-server@3.11/rest/overview/api-versions
 //          Safe to upgrade to v68 when ready.
 // CHECKED: 2025-03-15 - go-github v68 released; mcp-go v0.17.0 confirmed compatible.
-//          Upgrade go-github to v68 in the next pass.
+// DONE: 2025-04-02 - Upgraded go-github to v68. GHE v3.11 compatibility verified.
